@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+.matarial_main {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    /* padding-top: 30px; */
+}
+/* 카테고리 영역 */
+.main_category {
+    margin-top: 10px;
+    width: 200px;
+}
+.main_category h2 {
+ text-indent: 5px;
+}
+.main_category>ul>li {
+    text-indent: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.main_category li:hover {
+    color: rgba(204, 14, 14, 0.79);
+    cursor: pointer;
+    font-weight: bold;
+}
+.main_category ul>li:nth-child(6) {
+    margin-bottom: 10px;
+}
+.main_category ul>li:nth-child(7),.main_category ul>li:nth-child(8) {
+    text-indent: 35px;
+    margin-bottom: 10px;
+}
+/* 오늘의 레시피 영역 */
+.today_recipe {
+    width: 860px;
+    margin: 10px 0 10px 40px;
+}
+.today_recipe li {
+    display: inline-block;
+    width: 180px;
+    margin: 10px 0 0 30px;
+}
+.today_recipe li:first-of-type {
+    margin-left: 60px;
+}
+.today_recipe li > a:last-child {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.today_recipe img {
+    width: 180px;
+    height: 180px;
+}
+/* 재료 검색 영역 */
+.form_matarial {
+    width: 100%;
+}
+.form_matarial form {
+    display: flex;
+}
+.form_matarial input {
+    box-sizing: border-box;
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgba(204, 14, 14, 0.79);
+    border-radius: 6px 0 0 6px;
+    margin-left: 347px;
+    outline: 0;
+    text-indent: 13px;
+}
+.mat_search {
+	box-sizing: border-box;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 13px;
+}
+.matarial_content {
+    width: 100%;
+    margin: 30px 0;
+}
+/* 상품 영역 */
+.matarial_content ul {
+    margin-left: 100px;
+}
+.matarial_content li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 248px;
+}
+.matarial_content li img {
+    width: 248px;
+    height: 320px;
+}
+.matarial_content li a {
+    margin-bottom: 5px;
+}
+.matarial_content li a:not(:first-child) {
+    display: inline-block;
+    width: 248px;
+}
+.matarial_content li a:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+}
+.matarial_content li a:nth-child(3) {
+    font-size: 14px;
+    font-weight: bold;
+}
+/* 페이지 넘기기 영역 */
+.page_number {
+    display: flex;
+    margin-left: 444.5px;
+    margin-bottom: 30px;
+}
+.page_number a{
+    display: inline-block;
+    font-size: 14px;
+    width: 34px;
+    height: 34px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left:1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    font-weight: bold;
+}
+.page_number a:last-child {
+    border-right:1px solid #ccc;
+}

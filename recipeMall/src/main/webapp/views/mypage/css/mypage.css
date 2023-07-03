@@ -1,0 +1,132 @@
+@charset "utf-8";
+a, a:visited {
+    color: black;
+}
+a:hover, a:focus {
+    color: #46aad1;
+    /* font-weight: bold; */
+}
+#main_content {
+    font-size: 1em;
+    box-sizing: unset;
+}
+.mypage_box {
+    width: 100%;
+    height: auto;
+}
+#mypage {
+    overflow: hidden;
+    width: 100%;
+    margin: 30px 0 60px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/* 마이페이지 제목 */
+.mypage_title {
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+/* 왼쪽 사이드 메뉴 */
+.side_bar {
+    /* box-sizing: border-box; */
+    width: 17%;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+/* 간단한 유저 정보 */
+.user_info_box {
+    position: relative;
+    box-sizing: border-box;
+    width: 160px;
+    height: 180px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.user_profile>img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    top: 30px;
+    left: 32%;
+}
+.user_profile>p {
+	position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.user_info_box>p {
+    position: absolute;
+    font-size: 0.8em;
+    top: 110px;
+    left: 10px;
+}
+.main_menu>li {
+    margin-top: 30px;
+}
+.main_menu>li>a {
+    font-family: "NotoSansM";
+    padding: 0 8px;
+}
+.main_menu>li>a:hover, .main_menu>li>a:focus {
+    color: #46aad1;
+}
+.sub_menu>li {
+    margin-top: 5px;
+    padding-left: 40px;
+    font-size: 0.8em;
+}
+.sub_menu>li>a:hover {
+    color: #2ebaf1;
+}
+
+/* 출석체크 */
+.check_attend {
+    position: absolute;
+    font-size: 0.8em;
+    top: 140px;
+    left: 31%;
+    border: none;
+    cursor: pointer;
+}
+/* 메뉴 컨텐츠 */
+.mypage_content {
+    /* box-sizing: border-box; */
+    width: 76%;
+    margin: 0 30px;
+    float: right;
+}
+.menu_title {
+    margin-top: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.btn {
+    width: 120px;
+    height: 40px;
+}
+.btn_c {
+    font-family: "NotoSansM";
+    border: none;
+    background-color: #2ebaf1;
+    color: #fff;
+    cursor: pointer;
+}
+.status {
+    display: none;
+}
+
+/* 페이징 */
+.page {
+	text-align: center;
+	margin-top: 10px;
+}
+.selPage {
+	color: blue;
+	font-weight: bold;
+}
+.noLine {
+	color: black;
+	font-weight: normal;
+}

@@ -1,0 +1,358 @@
+/* main_content  영역 */
+.btn_more{
+    position: absolute;
+    right: 50px;
+    font-size: 1.3em;
+}
+.btn_more a {
+    color: #036c44;
+    font-family: "NotoSansM";
+}
+.btn_more a:hover {
+    color: #8bb0a3;
+    
+}
+section{
+    margin: 40px 0;
+}
+.textline {
+    margin-top: 10px;
+    border: 0.1px solid rgb(221, 221, 221);
+    text-decoration: overline;
+
+}
+.r_txt{
+    font-family: "NotoSansM";
+    font-size: 1.3em;
+    width: 130px;
+}
+.btn_add{
+    display: block;
+    width: 200px;
+    margin: 35px auto;
+    
+    font-family: "NotoSans";
+    font-size: 1.2em;
+    background-color: #036c44;
+    color: #fff;
+}
+
+/* 제목 영역 */
+.t_area{
+    text-align: center;
+    width:100%;
+    clear: both;
+}
+.t_area i{
+    color: #036c44;
+    margin-left: 10px;
+}
+/* 레시피 내용 영역 */
+    .r_content_area{
+        height: auto;
+        position: relative;
+    }
+    /* 정보 영역  */
+        /* 대표사진 등록 영역 */
+        .r_in_photo{
+            position: relative;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            text-align: center;
+            width: 100%;
+            height: 0;
+            padding-bottom: 60%; /*조절필요*/
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .r_in_photo label{
+            font-family: "NotoSansR";
+            font-size: 1.2em;
+        }
+        .r_in_photo label:hover{
+            color: #036c44;
+        }
+        .r_in_photo .fa-image{
+            font-size: 4em;
+            margin-top: 12px;
+        }
+        .r_in_photo input{
+           visibility: hidden;
+        }
+        .preview_img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .r_in_photo .remove_img_btn{
+            position: absolute;
+            font-size: 1.7em;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            color: #ccc;
+        }
+        .file_upload_btn{
+        	margin-top : 22px;
+        	cursor: pointer;
+        }
+       .redtxt{
+       	color : #CC3D3D;
+       	font-family: "NotoSansM";
+       } 
+    .r_in_video{
+        font-family: "NotoSansR";
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 1.3;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .fa-video{
+        font-size: 2.8em;
+        margin-top: 5px;
+    }
+    .r_info{
+        display: grid;
+        grid-template-columns: 130px 100px 100px 140px 140px 150px 10px 240px;
+        grid-template-rows: 1fr 2fr 2fr 1fr;
+        row-gap: 15px;
+        column-gap: 10px;
+    }
+    .r_txt{
+        grid-column: 1/2;
+    }
+    .r_txt.cf{
+        text-align: center;
+        width: 100px;
+        grid-column: 3/4;
+    }
+    .r_info textarea{
+       grid-column: 2/7;
+    }
+    .r_info textarea.cf{
+        grid-column: 2/6;
+     }
+    .r_info select{
+        width: 100px;
+        height: 20px;
+    }
+
+
+    .r_in_photo{
+       grid-column: 8/9;
+       grid-row: 1/3;
+    }
+    .r_in_num,.r_in_time{
+        width: 140px;
+    }
+    .r_info_txt{
+        font-size: 1.1em;
+        font-family: "NotoSansR";
+        margin-left: 5px;
+    }
+    .r_in_num{
+       grid-column: 4/5;
+    }
+    .r_in_time{
+       grid-column: 5/6;
+    }
+    .r_in_lev{
+       grid-column: 6/7;
+    }
+    
+    /* 재료 영역 */
+    .r_ing{
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+    .r_ing input{
+        height: 25px;
+        
+    }
+    .ing_category{
+        margin-right: 70px;
+    }
+    .ing_category > input{
+        background-color: #daefdb;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        font-family: "NotoSansR";
+    }
+    .btn_ing_del_all{
+        font-size: 1em;
+        margin-top: 15px;
+        cursor: pointer;
+       
+    }
+    .r_ing_content{
+        text-align: center;
+        position: relative;
+    } 
+    .ing_name_amount{
+        position: relative;
+        text-align: left;
+        width: 410px;
+    }
+    .ing_input_area{
+        height: 30px;
+    }
+
+
+    .ing_input_area{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .ing_input_area >{
+        width: 43%;
+    }
+    .ing_input_area > input:nth-child(1) {
+        margin-right: 16px; 
+    }
+    .btn_del {
+        display: none;
+        background-color:transparent;
+    }
+    .btn_del button{
+        background-color:transparent;
+    }
+    .btn_del i{
+        font-size: 1.1em;
+    }
+    .r_ing_ex_area{
+        margin-left: 130px;
+        text-align: center;
+    }
+   
+    .r_in_ex{
+        color: red;
+        margin: 20px 0;
+    }
+    .ing_name_amount .btn_add_s{
+        border: 0;
+        background-color: none;
+        font-family: "NotoSansM";
+        font-size: 1.3em;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    /* 순서 영역 */
+    .seq_content_area{
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+    .seq_content_area h2{
+        margin-right: 50px;
+    }
+    .seq_content_area textarea{
+        width: 50%;
+        height: 150px;
+        box-sizing: border-box;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .btn_add_area{
+        margin-left: 130px;
+    }
+    .r_seq .btn_add {
+       
+        width: calc(100%-130px);
+    }
+        /*순서사진 등록 영역*/
+        .seq_step_pho{
+            box-sizing: border-box;
+            position: relative;
+            border: 1px solid #ccc;
+            border-radius: 0 3px 3px 0;
+            border-left: none;
+            width: 200px;
+            height: 150px;
+            text-align: center;
+            padding-top: 3%;
+            
+        }
+       
+        .seq_step_pho label{
+            font-family: "NotoSansR";
+            font-size: 3.5em;
+            
+            
+        }
+        .seq_step_pho label:hover{
+            color: #036c44;
+        }
+        .seq_step_pho input{
+           visibility: hidden;
+        }
+        .preview_img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        .seq_step_pho .remove_img_btn{
+            position: absolute;
+            font-size: 1.7em;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            color: #ccc;
+        }
+   
+    
+    .btn_del_seq{
+        /* display: none; */
+        background-color:transparent;
+    } 
+    .btn_del_seq button{
+        background-color:transparent;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    .btn_del_seq i{
+        font-size: 2.5em;
+        color: #000;
+        font-weight: bold;
+    }   
+       
+    /* 기타 영역 */
+    .r_ect{
+       justify-content: flex-start; 
+    }
+    .r_ect textarea{
+        width: 80%;
+    }
+/* 버튼 영역 */
+.btn_r_insert{
+    text-align: center;
+}
+.btn_r_insert input{
+    font-family: "NotoSansR";
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.btn_in{
+    width: 150px;
+    background-color: #036c44;
+    color: #fff;
+    
+}
+.btn_can{
+    width: 75px;
+    background-color: #ccc;
+}

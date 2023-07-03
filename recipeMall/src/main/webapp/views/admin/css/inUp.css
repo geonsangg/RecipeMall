@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* form */
+.frm_insert {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* form table */
+.insert_tbl th, .insert_tbl td {
+    padding: 9px 0;
+    border-bottom: 1px solid #aaa;
+}
+.insert_tbl td {
+    text-align: left;
+}
+.subject {
+    width: 95%;
+    height: 20px;
+    padding-left: 10px;
+}
+.content {
+    width: 95%;
+    height: 300px;
+    padding-left: 10px;
+}
+
+/* notice Form */
+#frm_notice {
+    width: 90%;
+    margin: 0 auto;
+}
+.notice_in_tbl {
+    width: 100%;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+.notice_in_tbl tr {
+    height: 20px;
+}
+.notice_in_tbl th {
+    width: 10%;
+}
+.notice_in_tbl td {
+    width: 90%;
+    text-align: center;
+}
+.notice_in_tbl th, .notice_in_tbl td {
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+.notice_in_tbl input {
+    box-sizing: border-box;
+    width: 90%;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 1.3em;
+}
+
+/* faqForm */
+.faq_tbl input {
+    box-sizing: border-box;
+    width: 90%;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 1.3em;
+}
+
+.tbl textarea {
+    box-sizing: border-box;
+    width: 90%;
+    height: 280px;
+    padding: 10px;
+    font-size: 1.2em;
+    resize: none;
+}
+
+/* product Form */
+.prod_in_tbl {
+    width: 60%;
+    margin: 0 auto;
+}
+.prod_in_tbl tr {
+    height: 60px;
+}
+.prod_in_tbl td {
+    text-align: left;
+}
+.prod_in_tbl input {
+    width: 70%;
+    height: 30px;
+}
+
+/* 등록 취소 버튼 */
+.sc_btn {
+    margin: 25px auto;
+    width: 100%;
+}
+.sc {
+    height: 30px;
+    text-align: center;
+}
+.sc li{
+    margin-right: 10px;
+    display: inline-block;
+}
+.sc li a {
+    /* border: 1px solid #aaa; */
+    border-radius: 3px;
+    padding: 4px 9px;
+}
+.in {
+    background-color: #2ebaf1;
+    color: white;
+}
+.cancle {
+    background-color: #aaa;
+    color: white;
+}

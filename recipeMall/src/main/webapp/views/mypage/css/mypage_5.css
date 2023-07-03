@@ -1,0 +1,36 @@
+.mypage_blocklist_area{
+    box-sizing: border-box;
+    width: 76%;
+    margin: 0 30px;
+    float: right;
+    font-size: 1.2em;
+}
+.block_table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse
+}
+th{
+    font-family: "NotoSansR";
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+tbody{
+    position: relative;
+    font-size: 0.8125em;
+}
+.b_num{
+    font-family: "NotoSansR";
+}
+.t_b_top{
+    border-top: 1px solid  #ccc;
+} 
+.btn_blockoff{
+   
+    background-color: transparent;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.tb_number{
+    font-style: normal;
+}

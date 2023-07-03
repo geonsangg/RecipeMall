@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.findArea>img {
+	margin-left: 300px;
+}
+.findArea > form p {
+	padding-left: 293px;
+	margin-bottom: 20px;
+}
+.findArea > form label {
+	width: 56px;
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 20px;
+	line-height: 29px
+}
+.findArea > form .pwddd label{
+	font-size: 18px;
+	width: 110px;
+	display: inline-block;
+}
+.findArea > form .pwddd input {
+	width: 356px;
+	height: 24px;
+	line-height: 24px;
+}
+.findArea > form input {
+	width: 400px;
+	height: 24px;
+	line-height: 24px;
+}
+.findArea button {
+	width: 550px;
+	height: 80px;
+	margin-left: 280px;
+	font-size: 20px;
+	background-color: #2ebaf1;
+	color: #fff;
+	border-radius: 6px;
+}
+.findArea h2 {
+	width: 500px;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 300px;
+}
+.findArea a {
+	margin-top: 20px;
+	display: inline-block;
+	width: 400px;
+	height: 80px;
+	margin-left: 355px;
+	font-size: 20px;
+	background-color: #2ebaf1;
+	color: #fff;
+	border-radius: 6px;
+	line-height: 80px;
+	text-align: center;
+	font-weight: bold;
+}

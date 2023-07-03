@@ -1,0 +1,65 @@
+.best_area {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.best_area>.all_best {
+	display: none;
+}
+
+.best_button {
+    display: flex;
+    width: 100%;
+    padding: 52px 0;
+}
+.best_button button {
+    width: 170px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.best_button button:first-child {
+    background-color: rgba(204, 14, 14, 0.79);
+    border: none;
+    margin-left: 340px;
+    color: #fff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.best_button button:last-child {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.best_area ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.best_area li {
+    width: 252px;
+    margin-bottom: 30px;
+}
+.best_area li:not(:nth-child(4n+1)) {
+    margin-left: 30px;
+}
+.best_area li img {
+    width: 252px;
+    height: 320px;
+}
+.best_area li a {
+    width: 252px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.best_area li a:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+}
+.best_area li a:nth-child(3) {
+    font-size: 14px;
+    font-weight: bold;
+}

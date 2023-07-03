@@ -1,0 +1,163 @@
+/*mypage_content 영역시작*/
+.mypage_content>h3 {
+    padding: 35px 0 8px 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+/*메인페이지에서만 적용*/
+.order_message {
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+.moving_box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.moving_box img{
+    width: 100px;
+    height: 100px;
+}
+.order_place {
+    position: absolute;
+    left: 0;
+}
+.truck_img{
+    position: absolute;
+}
+.truck_img img {
+    width: 140px;
+    height: 140px;
+}
+.order_home {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+/*진행중인 주문 영역시작*/
+.mypage_content_order_header {
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+.mypage_content_order_header span {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0 0 0 10px;
+}
+.mypage_content_order{
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 35px 0 35px 0;
+    border: 1px solid #ccc;
+    text-align: center;
+    list-style: none;
+}
+.mypage_content_order ul li {
+    width: 100px;
+    height: 85px;
+    display: inline-block;
+    padding: 0 10px 0 30px;
+}
+.mypage_content_order ul li span {
+    display: block;
+    padding: 0 0 15px 0;
+    font-weight: bold;
+}
+.mypage_content_order ul li strong {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    background-color: #a4a1a1;
+    border-radius: 50%;  
+    position: relative;
+}
+.mypage_content_order ul li strong em{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+}
+/*진행중인 주문 영역끝*/
+
+/*조회기간 영역시작*/
+.mypage_content_lately_info {
+    width: 100%;
+}
+.mypage_content_lately_info_header{
+    padding: 0 0 20px 0;
+    width: 100%;
+}
+.date_check_box {
+    width: 100%;
+    margin: 0 0 35px 0;
+    padding: 10px 0 10px 0px;
+    border: 3px solid #ccc;
+}
+.date_check_box form {
+    display: flex;
+    flex-direction: row;
+}
+.date_check_list {
+    padding: 0 10px 0 40px;
+}
+.date_check_list button {
+    width: 54px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    cursor: pointer;
+}
+.date_check_calendar { 
+    margin: 0 20px 0 20px;
+}
+.date_check_calendar input {
+    height: 31px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+.btn_date_check {
+    font-style: normal;
+    width: 100px;
+    height: 33px;
+    border: 1px solid #46aad1;
+    background-color: #46aad1;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn_date_check em{
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+}
+/*조회기간 영역끝*/
+
+/*주문목록 조회내역 영역시작*/
+.mypage_content_lately_info_result{
+    height: 300px;
+    width: 100%;
+}
+.mypage_content_lately_info_result span {
+    display: block;
+    padding: 20px 0 10px 0;
+    font-size: 14px;
+    width: 100%;
+}
+.info_result_table table {
+    text-align: center;
+    width: 100%;
+}
+.info_result_table table th {
+    border-top: 2px solid black;
+    border-bottom: 1px solid #ccc;
+}
+/*주문목록 조회내역 영역끝*/
+/*mypage_content 영역끝*/

@@ -1,0 +1,102 @@
+.mypage_content>h3 {
+    padding: 35px 0 8px 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.mypage_content_aHeader h4 {
+    padding: 20px 0 10px 0;
+    width: 100%;
+}
+.mypage_content_address{
+    padding: 15px 15px 15px 0;
+    width: 100%;
+}
+.mypage_content_address table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+.mypage_content_address table th {
+    padding: 10px 15px 10px 20px;
+    color: #777777;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #e3e2e2;
+    text-align: left;
+}
+.mypage_content_address .important {
+    padding: 0 0 0 10px;
+    margin: 0 0 0 -10px;
+    background: url(../image/icon_dot.png) no-repeat 0 center;
+}
+.mypage_content_address table td {
+    height: 31px;
+    padding: 10px 15px 10px 15px;
+    color: #777777;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+.mypage_content_address table input {
+    width: 190px;
+    height: 33px;
+}
+.mypage_content_address table input[type="text"] {
+    color: black;
+    border: 1px solid #d6d6d6;
+    line-height: 37px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.mypage_content_address table .address_postcode input{
+    float: left;
+    width: 190px;
+}
+.mypage_content_address table .btn_post_search {
+    float: left;
+    margin: 0 0 0 5px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #989898;
+    cursor: pointer;
+}
+.mypage_content_address table .address_input{
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+}
+.mypage_content_address table .address_input input:first-child {
+    width: 300px;
+}
+.mypage_content_address_submit {
+    margin-top: 15px;
+    text-align: center;
+}
+.btn__address_cancel{
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    padding: 0 5px 0 5px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.btn_address_submit{
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    padding: 0 5px 0 5px;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background: #2ebaf1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}

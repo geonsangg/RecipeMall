@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+.main_c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.new {
+    box-sizing: border-box;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+.c_title {
+    font-size: 0.9em;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+}
+.s_box {
+
+}
+.new_today {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+}
+.today {
+
+}
+.today li {
+    
+    margin: 3px;
+}
+.new_review {
+    width: 48%;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+}
+.inq {
+
+}
+.new_board {
+    width: 48%;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+}
+.post {
+
+}
+.new_inquery {
+    width: 48%;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+}
+.m_list {
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+.inq_info {
+    text-align: right;
+}
+.inq_info span:first-child {
+    margin-right: 10px;
+}
+/* main content div */
+.list {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* 테이블 */
+.tbl {
+    width: 100%;
+    border-top: 3px solid #444;
+    border-bottom: 1px solid #444;
+    border-spacing: 0;
+}
+.tbl>caption {
+    display: none;
+}
+.tbl tr {
+    text-align: center;
+}
+.tbl th, .tbl td {
+    padding: 5px 0;
+    border-bottom: 1px solid #aaa;
+}
+
+/* user table */
+.user_tbl th:nth-child(1), .user_tbl td:nth-child(1) {
+    width: 8%;
+}
+.user_tbl th:nth-child(2), .user_tbl td:nth-child(2) {
+    width: 10%;
+}
+.user_tbl th:nth-child(3), .user_tbl td:nth-child(3) {
+    width: 10%;
+}
+.user_tbl th:nth-child(4), .user_tbl td:nth-child(4) {
+    width: 30%;
+}
+.user_tbl th:nth-child(5), .user_tbl td:nth-child(5) {
+    width: 30%;
+}
+.user_tbl th:nth-child(6), .user_tbl td:nth-child(6) {
+    width: 9%;
+}
+.user_tbl th:nth-child(7), .user_tbl td:nth-child(7) {
+    width: 3%;
+}
+
+/* notice table */
+.notice_tbl th:nth-child(1), .notice_tbl td:nth-child(1) {
+    width: 7%;
+}
+.notice_tbl th:nth-child(2), .notice_tbl td:nth-child(2) {
+    width: 70%;
+}
+.notice_tbl th:nth-child(3), .notice_tbl td:nth-child(3) {
+    width: 9%;
+}
+.notice_tbl th:nth-child(4), .notice_tbl td:nth-child(4) {
+    width: 9%;
+}
+.notice_tbl th:nth-child(5), .notice_tbl td:nth-child(5) {
+    width: 5%;
+}
+
+/* faq table */
+.faq_tbl th:nth-child(1), .faq_tbl td:nth-child(1) {
+    width: 9%;
+}
+.faq_tbl th:nth-child(2), .faq_tbl td:nth-child(2) {
+    width: 70%;
+}
+.faq_tbl th:nth-child(3), .faq_tbl td:nth-child(3) {
+    width: 9%;
+}
+.faq_tbl th:nth-child(4), .faq_tbl td:nth-child(4) {
+    width: 9%;
+}
+.faq_tbl th:nth-child(5), .faq_tbl td:nth-child(5) {
+    width: 3%;
+}
+
+/* product table */
+.prod_tbl th:nth-child(1), .prod_tbl td:nth-child(1) {
+    width: 10%;
+}
+.prod_tbl th:nth-child(2), .prod_tbl td:nth-child(2) {
+    width: 60%;
+}
+.prod_tbl th:nth-child(3), .prod_tbl td:nth-child(3) {
+    width: 10%;
+}
+.prod_tbl th:nth-child(4), .prod_tbl td:nth-child(4) {
+    width: 10%;
+}
+.prod_tbl th:nth-child(5), .prod_tbl td:nth-child(5) {
+    width: 5%;
+}
+.prod_tbl th:nth-child(6), .prod_tbl td:nth-child(6) {
+    width: 5%;
+}
+
+/* order table */
+.order_tbl th:nth-child(1), .order_tbl td:nth-child(1) {
+    width: 9%;
+}
+.order_tbl th:nth-child(2), .order_tbl td:nth-child(2) {
+    width: 11%;
+}
+.order_tbl th:nth-child(3), .order_tbl td:nth-child(3) {
+    width: 9%;
+}
+.order_tbl th:nth-child(4), .order_tbl td:nth-child(4) {
+    width: 30%;
+}
+.order_tbl th:nth-child(5), .order_tbl td:nth-child(5) {
+    width: 11%;
+}
+.order_tbl th:nth-child(6), .order_tbl td:nth-child(6) {
+    width: 12%;
+}
+.order_tbl th:nth-child(7), .order_tbl td:nth-child(7) {
+    width: 9%;
+}
+.order_tbl th:nth-child(8), .order_tbl td:nth-child(8) {
+    width: 9%;
+}
+
+/* productFaq table */
+.prodInq_tbl th:nth-child(1), .prodInq_tbl td:nth-child(1) {
+    width: 5%;
+}
+.prodInq_tbl th:nth-child(2), .prodInq_tbl td:nth-child(2) {
+    width: 10%;
+}
+.prodInq_tbl th:nth-child(3), .prodInq_tbl td:nth-child(3) {
+    width: 42%;
+}
+.prodInq_tbl th:nth-child(4), .prodInq_tbl td:nth-child(4) {
+    width: 25%;
+}
+.prodInq_tbl th:nth-child(5), .prodInq_tbl td:nth-child(5) {
+    width: 10%;
+}
+.prodInq_tbl th:nth-child(6), .prodInq_tbl td:nth-child(6) {
+    width: 8%;
+}
+
+/* 테이블 */
+
+/* search form */
+.search {
+    margin-bottom: 15px;
+    text-align: right;
+}
+/* search form */
+
+/* faq 등록 수정 삭제 버튼 */
+.cud {
+    margin: 20px 10px;
+    float: right;
+}
+.mi li{
+    float: left;
+    margin-right: 10px;
+}
+.mi li a {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 4px 9px;
+}
+
+/* paging */
+.paging {
+    margin-top: 15px;
+    clear: both;
+    text-align: center;
+}
+/* paging */

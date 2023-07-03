@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* 문의 분류 목록 선택 */
+.hover_li {
+    background-color: #2ebaf1;
+}
+.active {
+    background-color: #2ebaf1;
+}
+.active>a {
+    color: #fff;
+}
+.active_a {
+    color: #fff;
+}
+/* 자주하는 질문{s} */
+.cs_center {
+    width: 800px;
+    margin: 0 auto;
+}
+.accordions {
+    width: 100%;
+}
+.faq_list {
+    width: 100%;
+}
+.question {
+    width: 100%;
+    height: 50px;
+}
+.click_btn {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border: 1px solid #dee2e6;
+}
+.click_btn:hover {
+    background-color: #f1f1f1;
+}
+.qna_title {
+    display: inline-block;
+    width: 740px;
+    color: #48494a;
+    text-align: left;
+    font-size: 1.2em;
+}
+.qna_title .i{
+    font-weight: bolder;
+    color: #2ebaf1;
+    margin-right: 10px;
+}
+/* .down_btn {
+
+} */
+.answer {
+    border: 1px solid #dee2e6;
+    display: none;
+}
+.accordion_content {
+    padding: 20px;
+}
+.on {
+    display: block;
+}
+.c_title{
+   
+    font-size: 1.4em;
+}
+span.fa{
+    
+    color: #2ebaf1;
+}
+/* 자주하는 질문{e} */
+
+/* 일대일 문의{s} */
+.one_inquery {
+    width: 95%;
+    margin: 0 auto;
+}
+.inquery_tbl {
+    width: 100%;
+}
+.inquery_tbl caption {
+    display: none;
+}
+.inquery_tbl tr {
+    height: 35px;
+}
+.inquery_tbl th {
+    width: 85px;
+    background-color: #e3e2e2;
+}
+.inquery_tbl td {
+    padding-left: 10px;
+}
+.inq_txta {
+    resize: none;
+}
+.file_upload_btn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #48494a;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.file_area {
+    height: auto;
+}
+.file_area label {
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 84%;
+}
+#inq_file {
+    display: none;
+}
+.file_list>p {
+    display: inline-block;
+    padding-right: 20px;
+}
+.file_remove {
+    border: none;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+.subm_btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.inq_btn {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+}
+.inq_img_file {
+	display: bolck;
+}
+/* 일대일 문의{e} */
+
+/* 문의 목록 {s} */
+.inq_list {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+.inq_select {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+.inq_s>li {
+    float: left;
+    height: 41px;
+    overflow: hidden;
+}
+.inq_s>li:first-child {
+    width: 590px;
+}
+.inq_class {
+    margin-right: 340px;
+}
+.inq_class li {
+    float: left;
+    padding: 8px 15px;
+}
+.inq_date_s {
+    margin-right: 15px;
+}
+.inq_date_s li {
+    float: left;
+}
+.inq_date_s li:first-child>a::after {
+    content: " |";
+    color: #000;
+}
+.inq_date_s li:last-child>a {
+    padding-left: 5px;
+}
+.inq_cnt {
+    margin-right: 15px;
+}
+.inq_h {
+    height: 41px;
+    line-height: 41px;
+}
+/* ------------------- */
+.inq_list_tb {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    border-collapse: collapse;
+}
+.inq_list_tb th {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 5px 0 6px;
+}
+.inq_list_tb td {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 3px 0;
+    font-size: 0.9em;
+}
+.inq_list_tb th:first-child, .inq_n {
+    width: 40px;
+}
+.inq_list_tb th:nth-child(2), .inq_board {
+    width: 100px;
+}
+.inq_list_tb th:nth-child(3), .inq_title {
+    width: 453px;
+}
+.inq_list_tb th:nth-child(4), .inq_date {
+    width: 100px;
+}
+.inq_list_tb th:last-child, .inq_status {
+    width: 100px;
+}
+.inq_list_tb td {
+    text-align: center;
+}
+
+/* 페이지 버튼 */
+.paging_box {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.paging_box ul {
+    display: inline-block;
+    height: 30px;
+}
+.paging_box li {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+}
+/* 버튼 */
+.inquering {
+    position: absolute;
+    right: 100px;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    color: white !important;
+}
+.inq_view_btn {
+    margin-top: 10px;
+    padding: 2px 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.cancel {
+    color: #fff;
+    background-color: #eb625f;
+    cursor: pointer;
+    border: none;
+}
+/* 문의 목록 {e} */
+
+/* 일대일 문의 상세보기 */
+.inq_v {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px auto;
+    padding-top: 30px;
+}
+.inq_view_tbl {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.inq_view_tbl th {
+    text-align: center;
+    width: 70px;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #888;
+}
+.inquery, .a {
+    height: 180px;
+}

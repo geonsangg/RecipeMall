@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* 유저 문의 목록 */
+.userInq_tbl th:nth-child(1) {
+    width: 5%;
+}
+.userInq_tbl th:nth-child(2) {
+    width: 6%;
+}
+.userInq_tbl th:nth-child(3) {
+    width: 55%;
+}
+.userInq_tbl th:nth-child(5) {
+    width: 10%;
+}
+.userInq_tbl th:nth-child(6) {
+    width: 10%;
+}
+
+/* 공지사항 */
+.notice_v {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.notice_d {
+	width: 100%;
+}
+.notice_t {
+	margin: 20px 0;
+    padding-bottom: 8px;
+}
+.notice_v_tbl {
+	width: 100%;
+	margin-top: 10px;
+	border-top: 3px solid #666;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+table caption {
+	display: none;
+}
+.tbl th, td {
+    padding: 10px;
+    border-bottom: 1px solid #888;
+}
+.n_v_tr1 th {
+    width: 13%;
+}
+.n_v_tr1 td {
+    width: 43%;
+}
+.notice_c {
+    width: 100%;
+    padding: 10px 10px;
+}
+.min {
+    width: 100%;
+    min-height: 200px;
+    white-space: pre-line;
+    text-align: left;
+}
+.btn_a {
+	margin: 20px;
+	text-align: center;
+}
+.btn {
+	width: 80px;
+	height: 30px;
+}
+
+/* 유저 문의 답변 */
+.inq_v, .prodInq_list {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.frm_inqRe {
+    width: 100%;
+}
+.inq_re_tbl {
+    width: 100%;
+    border-collapse: collapse;
+}
+.inq_re_tbl th {
+    width: 13%;
+}
+.inq_re_tbl td:nth-child(1), .inq_re_tbl td:nth-child(5), .inq_re_tbl td:nth-child(6) {
+    width: 87%;
+}
+/* .inq_re_tbl td:nth-child(3), .inq_re_tbl td:nth-child(4) {
+    width: 37%;
+} */
+.as>td {
+    width: 20%;
+}
+.inq_re_tbl textarea, .prodFaq_v_tbl textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 280px;
+    padding: 10px;
+    font-size: 1.2em;
+    resize: none;
+}
+
+/* 상품 문의 테이블 */
+.prodFaq_v_tbl {
+    width: 100%;
+}
+.prodFaq_v_tbl tr {
+    padding: 5px;
+}
+.prodFaq_v_tbl th {
+    width: 13%;
+}
+.prodFaq_v_tbl .pf_title {
+    width: 87%;
+    text-align: left;
+}
+.prodFaq_v_tbl td:nth-child(2), .prodFaq_v_tbl td:nth-child(3) {
+    width: 37%;
+    text-align: left;
+}
+.prodFaq_v_tbl td:nth-child(4), .prodFaq_v_tbl td:nth-child(5), .prodFaq_v_tbl td:nth-child(6) {
+    width: 87%;
+    text-align: left;
+}
+.cn {
+    word-break: break-all;
+}

@@ -1,0 +1,194 @@
+
+/* 전체적인 레이아웃 설계 */
+header,
+#main_content {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 50px;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+
+.top_menu {
+    width: 800px;
+    height: 80px;
+    text-align: center;
+}
+
+.recipe_mall {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.recipe_mall h1 {
+    width: 270px;
+}
+
+.recipe_a {
+    display: flex;
+    text-decoration: none;
+    color: #036c44;
+    bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+.id_in {
+    display: flex;
+    color: black;
+    bottom: 10px;
+    margin-top: 40px;
+
+
+}
+
+
+.save_or_publish {
+    display: flex;
+    width: auto;
+}
+
+
+
+/*icon 사이에 분리되는걸 넣고 싶음*/
+
+
+
+.save_or_publish {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.save_or_publish button {
+    margin-left: 20px;
+}
+
+
+
+
+.under_bar {
+    text-decoration: underline;
+    border: 0.5px solid #ccc
+}
+
+.middle_space {
+    width: 700px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.guide {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 10px;
+    padding-bottom: 10px;
+
+}
+.guide h1{
+    
+    cursor: pointer;
+    margin-top: 2opx;
+}
+.sub_guide {
+    font-size: small;
+    color: #a8a8a8;
+    font-weight: n  ne;
+}
+
+.fa-chevron-down {
+    color: #707070;
+    margin-left: 150px;
+}
+
+.Detail {
+    font-size: 15px;
+    text-align: start;
+
+}
+
+.Detail li {
+    padding: 10px;
+}
+
+.fa-circle {
+    font-size: 7px;
+    margin-right: 10px;
+
+}
+
+.writing_space {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.title_go {
+    width: 80%;
+    padding: 20px;
+    font-size: large;
+    margin-bottom: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fff;
+}
+
+.detail_go {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    font-size: large;
+    margin-bottom: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn1 {
+    border: 1px solid #036c44;
+    border-radius: 20px;
+    font-size: large;
+    background-color: #fff;
+    color: #036c44;
+    padding: 15px 30px;
+    margin: 0 10px;
+  	cursor:pointer; 
+}
+
+.btn2 {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: large;
+    background-color: #036c44;
+    color: #ffffff;
+    padding: 15px 30px;
+    cursor:pointer; 
+}
+
+.file_file{
+	border: 1px solid #036c44;;
+	border-radius: 20px;
+	padding: 15px 30px;
+	background-color: #fff;
+   	color: #036c44;
+   	font-size: medium;
+   	text-align: left;
+}
+
+

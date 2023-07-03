@@ -1,0 +1,183 @@
+.notice_title{
+    margin: 30px 0;
+}
+.n_search {
+	text-align: right;
+	margin-bottom: 20px
+}
+.search_form select {
+	height: 24px;
+}
+.search_in {
+	height: 24px;
+}
+.search_do {
+	height: 24px;
+}
+.notice_list {
+    width: 100%;
+    border-top: 2px solid #46aad1;
+}
+
+.notice_list>div {
+    border-bottom: 1px solid #ccc;
+    font-size: 0;
+}
+
+.notice_list>div.top {
+    border-bottom: 1px solid #999;
+}
+
+.notice_list>div:last-child {
+    border-bottom: 2px solid #ccc;
+}
+
+.notice_list>div>div {
+    display: inline-block;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+.notice_list>div.top>div {
+    font-weight: 800;
+}
+
+.notice_list .num {
+    width: 10%;
+}
+
+.notice_list .title {
+    width: 78%;
+    text-align: left;
+}
+
+.notice_list .top .title {
+    text-align: center;
+}
+
+.notice_list .writer {
+    width: 10%;
+}
+
+.notice_list .date {
+    width: 12%;
+}
+
+
+.notice_page {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.notice_page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-left: 0;
+    line-height: 100%;
+}
+
+.notice_page a.bt {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.notice_page a.num {
+    padding-top: 9px;
+    font-size: 1.4rem;
+}
+
+.notice_page a.num.on {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+.notice_page a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+
+.pagnation_area {
+    height: auto;
+    line-height: 40px;
+    margin: 40px 0;
+}
+
+.pagnation {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.pagnation li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* 공지사항 상세화면 */
+.notice_d {
+	width: 100%;
+}
+.notice_t {
+	margin: 20px 0;
+    padding-bottom: 8px;
+}
+.notice_tbl {
+	width: 100%;
+	margin-top: 10px;
+	border-top: 3px solid #666;
+}
+table caption {
+	display: none;
+}
+.notice_tbl th {
+	width: 13%
+}
+.notice_tbl td {
+	width: 87%;
+}
+.notice_c {
+	padding: 30px 0 30px 20px;
+}
+.prevNext {
+    overflow: hidden;
+    position: relative;
+    padding-left: 100px;
+    border-bottom: 1px solid #ddd;
+}
+.prevNext dt.prev, .prevNext dt.prev + dd.listx {
+    border-bottom: 1px solid #c9c9c9;
+}
+.prevNext dt {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    padding: 10px 0;
+    color: #555;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+.prevNext dd {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+.btn_a {
+	margin: 20px;
+	text-align: center;
+}
+.list_btn {
+	width: 80px;
+	height: 30px;
+}

@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* 글/댓글 게시판 선택 */
+.hover_li {
+    background-color: #2ebaf1;
+}
+.active {
+    background-color: #2ebaf1;
+}
+.active>a {
+    color: #fff;
+}
+.active_a {
+    color: #fff;
+}
+/* 글 관리 페이지{s} */
+.post {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+/* 글 종류,개수,작성 순서 선택 */
+.post_select {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+.post_s>li {
+    float: left;
+    height: 41px;
+    overflow: hidden;
+}
+.post_class {
+    margin-right: 340px;
+}
+.post_class li {
+    float: left;
+    padding: 8px 15px;
+}
+/* .post_class li:hover {
+    background-color: #2ebaf1;
+    cursor: pointer;
+}
+.post_class a:hover {
+    color: #fff;
+} */
+.post_date_s {
+    margin-right: 15px;
+}
+.post_date_s li {
+    float: left;
+}
+.post_date_s li:first-child>a::after {
+    content: " |";
+    color: #000;
+}
+.post_date_s li:last-child>a {
+    padding-left: 5px;
+}
+.post_cnt {
+    margin-right: 15px;
+}
+.post_h {
+    height: 41px;
+    line-height: 41px;
+}
+/* 글 목록 */
+.post_list_tb {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    border-collapse: collapse;
+}
+.post_list_tb th {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 5px 0 6px;
+}
+.post_list_tb td {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 3px 0;
+    font-size: 0.9em;
+}
+.post_list_tb th:first-child, .post_n {
+    width: 40px;
+}
+.post_list_tb th:nth-child(2), .post_board {
+    width: 100px;
+}
+.post_list_tb th:nth-child(3), .post_title {
+    width: 523px;
+}
+.post_list_tb th:nth-child(4), .post_date {
+    width: 100px;
+}
+.post_list_tb th:last-child, .post_chk {
+    width: 30px;
+}
+.post_list_tb td {
+    text-align: center;
+}
+/* 글 관리 페이지{e} */
+.post_s>li:first-child, .comment_s>li:first-child {
+    width: 590px;
+}
+/* 댓글 관리 페이지{s} */
+.comment {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+.comment_select {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+.comment_s>li {
+    float: left;
+    height: 41px;
+    overflow: hidden;
+}
+.comment_class {
+    margin-right: 340px;
+}
+.comment_class li {
+    float: left;
+    padding: 8px 15px;
+}
+/* .comment_class li:hover {
+    background-color: #2ebaf1;
+    cursor: pointer;
+}
+.comment_class a:hover {
+    color: #fff;
+} */
+.comment_date_s {
+    margin-right: 15px;
+}
+.comment_date_s li {
+    float: left;
+}
+.comment_date_s li:first-child>a::after {
+    content: " |";
+    color: #000;
+}
+.comment_date_s li:last-child>a {
+    padding-left: 5px;
+}
+.comment_cnt {
+    margin-right: 15px;
+}
+.comment_h {
+    height: 41px;
+    line-height: 41px;
+}
+/* 댓글 목록 */
+.comment_list_tb {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    border-collapse: collapse;
+}
+.comment_list_tb th {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 5px 0 6px;
+}
+.comment_list_tb td {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 3px 0;
+    font-size: 0.9em;
+}
+.comment_list_tb th:nth-child(1), .comment_n {
+    width: 50px;
+}
+.comment_list_tb th:nth-child(2), .post_going {
+    width: 500px;
+}
+.comment_list_tb th:nth-child(3), .cmt_date {
+    width: 100px;
+}
+.comment_list_tb th:nth-child(4), .comment_del {
+    width: 30px;
+    padding-right: 15px;
+}
+.comment_list_tb td {
+    text-align: center;
+}
+/* 댓글 관리 페이지{e} */
+
+/* 페이지 버튼 */
+.paging_box {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.paging_box ul {
+    display: inline-block;
+    height: 30px;
+}
+.paging_box li {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+}
+/* 버튼 */
+.delete_btn {
+    position: absolute;
+    right: 100px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.update_btn {
+    position: absolute;
+    right: 155px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.post_view_btn, .comment_view_btn {
+    margin-top: 5px;
+    /* padding: 2px 10px; */
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+}

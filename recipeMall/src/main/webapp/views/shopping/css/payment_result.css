@@ -1,0 +1,97 @@
+.succes_payment {
+   width : 800px;
+   margin : auto;
+}
+.succes_payment > h2 {
+   font-size: 1.5em;
+   text-align: center;
+   font-family: "NotoSansM";
+    line-height: 100%;
+    font-weight: normal;
+    height : 25px;
+} 
+
+.succes_payment > p {
+   font-size: 1.3em;
+   text-align: center;
+   font-family: "NotoSansM";
+    line-height: 100%;
+    font-weight: normal;
+    height : 20px;
+    color: #4d5250;
+}
+.succes_payment table {
+   width: 600px;
+   margin: 0 auto;
+   border : 1px solid #d9d9d9;
+     border-collapse : collapse;
+     background-color: #fff;
+     font-size: 1.2em;
+}
+
+.succes_payment table td {
+   padding : 15px 10px;
+   border: none;
+}
+.titletb {
+   width: 80px;
+   text-align: center;
+   border: none;
+   margin-right: 20px;
+}
+#detailZone {
+   padding : 0;
+}
+.succes_payment > table tr:nth-child(1) > td:nth-child(1) {
+   border-bottom: 1px solid #d9d9d9;
+}
+.succes_payment > table tr:nth-child(1) > td span {
+   padding : 15px 10px;
+   display: inline-block;
+   font-weight: 600;
+}
+.succes_payment > table tr:nth-child(2) > td {
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(3) > td {
+   border-bottom: 1px solid #d9d9d9;
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(4) > td {
+   border-bottom: 1px solid #d9d9d9;
+}
+.succes_payment > table tr:nth-child(4) > td:nth-child(2) {
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(5) > td:nth-child(1) {
+   border-bottom: 1px solid #d9d9d9;
+}
+.succes_payment > table tr:nth-child(5) > td:nth-child(2) {
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(6) > td {
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(7) > td {
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(8) > td {
+   border-bottom: 1px solid #d9d9d9;
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(9) > td:nth-child(2) {
+   font-weight: bold;
+}
+.succes_payment > table tr:nth-child(10) > td {
+   height: 60px;
+   line-height: 60px;
+   background-color: rgba(204, 14, 14, 0.79);
+   text-align: center;
+   font-size: 1.3em;
+}
+.succes_payment > table tr:nth-child(10) > td > a{
+   color: #fff;
+   width: 100%;
+   height: 100%;
+   display: inline-block;
+}

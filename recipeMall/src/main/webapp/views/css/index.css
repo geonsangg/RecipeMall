@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+/* main_content  영역 */
+.btn_more {
+    position: absolute;
+    right: 50px;
+    font-size: 1.3em;
+}
+
+.btn_more a {
+    color: #036c44;
+    font-family: "NotoSansM";
+}
+
+.btn_more a:hover {
+    color: #8bb0a3;
+
+}
+
+.css_g_color {
+    color: #036c44;
+}
+
+.s_title {
+    font-family: "NotoSansM";
+    font-size: 1.8em;
+}
+
+/* 로고영역 */
+.logo_img {
+    height: 50px;
+    /* width: 100px; */
+}
+
+/* 이미지 슬라이더 영역 */
+.main_imageslider {
+    height: 440px;
+    overflow: hidden;
+    position: relative;
+    margin: 40px 0;
+}
+
+.fix_banner {
+    width: 785px;
+    overflow: hidden;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.banner_img {
+    width: 100%;
+    transition: transform 1s linear;
+}
+
+.banner_img:hover {
+    transform: scale(1.2);
+}
+
+.b_txt_area {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+
+.id_img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: url(../images/idimg.jpg) center no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.id {
+    font-size: 1.3em;
+    font-family: "NotoSansR";
+    color: #fff;
+
+}
+
+.b_txt {
+    font-family: "NotoSansBo";
+    font-size: 2.6em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.img_slide_area {
+    position: relative;
+}
+
+.bx-wrapper {
+    width: 265px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.bx-prev,
+.bx-next {
+    display: none;
+}
+
+.slide_img {
+    transition: transform 0.1s linear;
+}
+
+.slide_img:hover {
+    transform: scale(1.08);
+}
+
+.slide_num {
+    position: absolute;
+    z-index: 30;
+    bottom: 17px;
+    right: 14px;
+    background-color: rgba(265, 265, 265, 0.8);
+    font-family: "NotoSansBl";
+    font-size: 1.5em;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+/* 레시피 바로가기 영역 */
+.direct_recipe {
+    height: 200px;
+    position: relative;
+}
+
+.direct_menu_area {
+    position: relative;
+}
+
+.direct_menu {
+    height: 150px;
+    position: relative;
+}
+
+.direct_menu img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.direct_menu p {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    font-family: "malssami";
+
+    font-size: 1.6em;
+}
+
+.direct_menu p:hover {
+    color: #036c44;
+}
+
+
+
+/* 오늘의 레시피 영역 */
+.today_recipe {}
+
+.recipe_content_area {
+    margin-top: 30px;
+
+}
+
+.recipe_content {
+    box-sizing: border-box;
+    width: 350px;
+    height: 220px;
+    padding: 0 30px;
+}
+
+.r_img_area {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.r_title {
+    font-family: "NotoSansR";
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.r_title_c {
+    font-family: "NotoSansM";
+    color: #036c44;
+}
+
+/* 자유게시판+광고 영역 */
+.board_advertise {
+    height: 250px;
+    padding: 50px 0;
+
+}
+
+.btn_more.cf {
+    right: 5px;
+}
+
+.board {
+    width: 45%;
+    position: relative;
+}
+
+.board .s_title {
+    height: 40px;
+    line-height: 40px;
+}
+
+.board_content_area {
+    margin-top: 40px;
+}
+
+.board_content {
+    margin: 10px 0;
+}
+
+.board_content a,
+.board_content time {
+    font-size: 1.2em;
+    font-family: "NotoSansR";
+    color: #7a7a7a;
+}
+
+.board time {
+    float: right;
+}
+
+.advertise {
+    width: 50%;
+
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+/* 인기레시피 영역 */
+.ranking {}
+
+.rank_recipe_content {
+    width: 200px;
+    height: 230px;
+    border: 1px solid #000;
+}
+
+.ranking h1 {
+    text-align: center;
+}
+
+/* 베스트상품 영역 */
+.best_product {}
+
+.btn_product_category_area {}
+
+.btn_product_category_area button {
+    border-radius: 20px;
+    border: none;
+    font-family: "NotoSansR";
+    margin-left: 7px;
+}
+
+.btn_clk {
+    background-color: #036c44;
+    color: #fff;
+}
+
+.best_product_content {
+    /* display: none; */
+    width: 315px;
+    height: 280px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.best_product_content_img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.best_product_content_txt {
+    margin: 30px 0;
+    line-height: 1.6;
+    font-size: 0.8em;
+    width: 205px;
+}
+
+/*실시간 검색어*/
+
+.block {
+    padding: 0 6px;
+    height: 20px;
+    overflow: hidden;
+    background: #fff;
+    width: 140px;
+    font-family: "NotoSansR";
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.block ul,
+.block li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.block li a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #555;
+    text-decoration: none;
+}
+
+.block li span {
+    padding: 2px 5px;
+    background: #d81f25;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.fa-caret-up {
+    color: #eb555a;
+}

@@ -1,0 +1,227 @@
+/* main_content  영역 */
+#main_content{
+    position: relative;
+}
+.btn_more {
+    position: absolute;
+    right: 50px;
+    font-size: 1.3em;
+}
+
+.btn_more a {
+    color: #036c44;
+    font-family: "NotoSansM";
+}
+
+.btn_more a:hover {
+    color: #8bb0a3;
+
+}
+
+section {
+    margin: 40px 0;
+}
+.textline{
+    clear: both;
+}
+
+.r_txt{
+    font-family: "NotoSansBo";
+    font-size: 2.5em;
+    margin: 20px 0;
+    width : 200px;
+}
+/* 좋아요 영역 */
+.like_area{
+    position: sticky;
+    text-align: right;
+    z-index: 300;
+    top: 400px;
+   
+     
+}
+.btn_like{
+    font-weight: bold;
+    font-size: 2.2em;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 5px;
+    
+}
+.cnt_like{
+    width: 56px;
+    font-size: 2em;
+    font-family: "NotoSansR";
+    display: inline-block;
+    text-align: center;
+} 
+/* 레시피 소개 영역 */
+.r_info{
+    text-align: center;
+}
+.r_info_img_area{
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 300px;
+    margin: 30px auto;
+    overflow : hidden;
+}
+.r_info_img{
+	width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.r_info_ex_title{
+    font-size: 2.5em;
+    font-family: "NotoSansBo";
+}
+.r_info_ex_in{
+    font-size: 1.4em;
+    font-family: "NotoSansR";
+}
+.r_info_sum{
+    padding: 0 35%;
+    height: 76px;
+    padding-top: 38px;
+    line-height: 30px;
+    font-size: 1.5em;
+}
+
+/* 작성자 영역 */
+.writer_area{
+    display: inline-block;
+    width: 80%;
+    margin: 30px 0 15px 0;
+}
+.writer_img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: url(../../images/idimg.jpg) center no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.writer_id{
+    font-size: 1.3em;
+    font-family: "NotoSansM";
+    margin: 0 15px;
+}
+.write_date{
+    font-size: 1.2em;
+}
+
+/* 재료 영역 */
+.r_ing_con{
+    display: flex;
+    justify-content: flex-start;
+}
+.r_ings{
+    margin-left: 130px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.r_ing{
+    box-sizing: border-box;
+    width: calc(50% - 20px);
+    padding: 0 40px 15px 40px;
+}
+
+.txt_al_r{
+    text-align: right;
+}
+.ing_t{
+    font-family: "NotoSansR";
+    font-size: 1.6em;
+    margin-bottom: 20px ;
+    color: #036c44;
+    
+}
+.r_ing_c{
+	width: 335px;
+    margin: 10px 0;
+}
+.r_ing_name{
+    font-size: 1.5em;
+    padding: 5px 0;
+}
+.r_ing_amount{
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+/* 동영상 영역 */ 
+/* js로 사용자가 업로드한 동영상이 없으면 display:none */
+.r_video, .textline.videoLine{
+    /* display: none; */
+}
+.r_video_container{
+    display: flex;
+    justify-content: flex-start;
+}
+.r_video .r_txt{
+    margin-right:100px ;
+}
+
+/* 순서 영역 */
+.seq_content{
+    width: 80%;
+}
+.seq_num{
+    /* display: inline-block; */
+    font-family: "malssami";
+    font-size: 2.5em;
+    color: #036c44;
+    margin: 15px 30px 20px 0;
+    vertical-align: top;
+}
+.seq_txt{
+    font-family: "NotoSansR";
+    font-size: 1.7em;
+    margin-top:15px;
+    
+}
+.seq_img{
+	width :500px;
+    margin: 40px 0;
+}
+.seq_img > img{
+    width: 100%;
+}
+.seq_phos{
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+
+  }
+
+	/* 순서 이미지가 없을 떄 */
+	.noimg_title{
+		height : 50px;
+	}
+	.noimg_step{
+		height : 100px;
+	}
+
+
+/* 기타영역 */
+.r_ect{
+    clear: both;
+    margin-bottom : 60px;
+}
+.r_ect i{
+    color: #DE4830; 
+}
+.r_ect_content{
+    font-size: 1.8em;
+}
+
+.null_area{
+ height : 100px;	
+}

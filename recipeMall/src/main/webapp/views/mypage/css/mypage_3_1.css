@@ -1,0 +1,56 @@
+/*.mypage_product_area영역 시작*/
+.mypage_product_area{
+    box-sizing: border-box;
+    width: 76%;
+    margin: 0 30px;
+    float: right;
+    font-size: 1.2em;
+}
+.mypage_product_qna{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.txt_q{
+    font-family: "NotoSansBo";
+    color: #2ebaf1;
+    margin-right: 15px;
+}
+
+.mypage_product_q>h4,
+.mypage_product_q>h6{
+    display: inline-block;
+}
+.mypage_product_q>h6{
+    position: absolute;
+    right: 0;
+}
+.mypage_product_a{
+    margin: 50px 0 30px 0;
+}
+.txt_a{
+    font-family: "NotoSansBo";
+    color: tomato;
+}
+
+.mypage_product_qna p{
+    font-size: 0.8125em;
+    margin-left: 12px;
+}
+.mypage_product_a p{
+    display: inline-block;
+}
+.btn_product{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #2ebaf1;
+    font-size: 1.2em;
+}
+
+.mypage_product_a{
+    display: none;
+    overflow: hidden;
+}
