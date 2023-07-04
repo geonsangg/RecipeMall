@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.errorArea a >img {
+	margin-left: 300px;
+}
+.errorArea > h2 {
+	margin-left: 375px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.errorArea > p{
+	margin-left: 375px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 300;
+}
+.errorArea > p > a {
+	text-decoration: underline;
+	color: #2ebaf1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
